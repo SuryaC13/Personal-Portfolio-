@@ -1,0 +1,23 @@
+
+
+.projectList {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+    gap: 1.5rem;
+      place-items: center;
+}
+.card {
+ width: 350px;
+ height: 400px;
+ border-radius: 25%;
+ padding-bottom: 40px;
+
+}
+.card img{
+ border-top-left-radius: 10px;
+ border-top-Right-radius: 10px;
+ width: 350px;
+ height: 200px;
+
+}
